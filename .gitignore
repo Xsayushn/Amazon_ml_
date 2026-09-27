@@ -1,0 +1,38 @@
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+*.pyo
+
+# Competition Datasets & Archives (>100MB rejected by GitHub)
+student_resource/dataset/
+*.zip
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Intermediate pipeline outputs and predictions
+output/
+
+# Media recordings (large video files)
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# System and IDE metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
